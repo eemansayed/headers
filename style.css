@@ -83,23 +83,23 @@ hr {
     padding: 0 130px;
     justify-content: space-between;
   }
+}
 
-  @media (max-width: 868px) {
-    .first .container {
-      justify-content: space-between;
-      padding: 0 100px;
-    }
+@media (max-width: 868px) {
+  .first .container {
+    justify-content: space-between;
+    padding: 0 100px;
   }
+}
 
-  @media (max-width: 768px) {
-    .first {
-      height: 140px;
-    }
-    .first .container {
-      flex-direction: column;
-      padding: 0 100px;
-      overflow: hidden;
-    }
+@media (max-width: 768px) {
+  .first {
+    height: 140px;
+  }
+  .first .container {
+    flex-direction: column;
+    padding: 0 100px;
+    overflow: hidden;
   }
 }
 
