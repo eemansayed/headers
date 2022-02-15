@@ -12,6 +12,12 @@ body {
   margin: 0;
 }
 
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
 .first {
   height: 100px;
   background-color: #fff;
@@ -54,7 +60,7 @@ hr {
   gap: 20px;
 }
 
-.first .btn.active {
+.btn.active {
   border: none;
   outline: none;
   background-color: #0d6efd;
@@ -67,7 +73,7 @@ hr {
   cursor: pointer;
 }
 
-.first .btn {
+.btn {
   border: none;
   outline: none;
   color: #0d6efd;
@@ -76,6 +82,28 @@ hr {
   line-height: 24px;
   font-weight: 400;
   cursor: pointer;
+}
+
+.second {
+  height: 80px;
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.second .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0 120px;
+}
+
+.second .content {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
 }
 
 @media (max-width: 1200px) {
@@ -96,6 +124,7 @@ hr {
   .first {
     height: 140px;
   }
+
   .first .container {
     flex-direction: column;
     padding: 0 100px;
@@ -104,7 +133,8 @@ hr {
 }
 
 @media (max-width: 570px) {
-  .first .container {
+  .first .container,
+  .second .container {
     padding: 0 50px;
   }
 }
@@ -119,6 +149,18 @@ hr {
 
   .first {
     height: 180px;
+  }
+
+  .second {
+    height: 130px;
+  }
+
+  .second .content {
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding-top: 20px;
   }
 
   .first .container {
