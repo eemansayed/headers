@@ -46,7 +46,8 @@ hr {
   justify-content: center;
 }
 
-.first .heading .title {
+.first .heading .title,
+.third .heading .title {
   font-size: 24px;
   line-height: 36px;
   color: #212529;
@@ -60,7 +61,8 @@ hr {
   gap: 20px;
 }
 
-.btn.active {
+.first .btn.active,
+.second .btn.active {
   border: none;
   outline: none;
   background-color: #0d6efd;
@@ -73,7 +75,8 @@ hr {
   cursor: pointer;
 }
 
-.btn {
+.first .btn,
+.second .btn {
   border: none;
   outline: none;
   color: #0d6efd;
@@ -104,6 +107,87 @@ hr {
   align-items: center;
   justify-content: center;
   gap: 20px;
+}
+
+.third {
+  height: 100px;
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.third .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0 120px;
+}
+
+.third .middle {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.third .right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.third .btn {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #1a1e21;
+  cursor: pointer;
+}
+
+.third .btn.active {
+  color: #565e64;
+}
+
+.third .blue-btn-outline {
+  outline: none;
+  background-color: #fff;
+  border: 1px solid #0d6efd;
+  border-radius: 6px;
+  padding: 8px 16px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #0d6efd;
+  font-weight: 400;
+  cursor: pointer;
+  transition: background-color 0.1s ease-in;
+}
+
+.third .blue-btn-outline:hover {
+  background-color: #0d6efd;
+  color: #fff;
+}
+
+.third .blue-btn-filled {
+  outline: none;
+  border: none;
+  background-color: #0d6efd;
+  border-radius: 6px;
+  padding: 8px 16px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.third .blue-btn-filled:hover {
+  color: #fff;
+  background-color: #0b5ed7;
+  border-color: #0a58ca;
 }
 
 @media (max-width: 1200px) {
