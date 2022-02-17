@@ -307,6 +307,60 @@ hr {
   color: #565e64;
 }
 
+.fifth {
+  height: 100px;
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.fifth .container {
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.fifth .title {
+  font-size: 24px;
+  line-height: 36px;
+  color: #212529;
+  font-weight: 400;
+}
+
+.fifth .container .left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.fifth .left .lists {
+  display: flex;
+  gap: 10px;
+}
+
+.fifth .lists .btn {
+  border: none;
+  outline: none;
+  background-color: #fff;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #1a1e21;
+  cursor: pointer;
+}
+
+.fifth .btn.active {
+  color: #565e64;
+}
+
+.fifth .right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 @media (max-width: 1200px) {
   .first .container {
     padding: 0 130px;
