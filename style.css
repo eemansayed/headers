@@ -308,15 +308,19 @@ hr {
 }
 
 .fifth {
-  height: 100px;
+  height: 110px;
   background-color: #fff;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.fifth .header-underline {
+  width: 100%;
 }
 
 .fifth .container {
   display: flex;
   justify-content: space-between;
-  height: 100px;
+  height: 80px;
   padding-left: 80px;
   padding-right: 80px;
 }
@@ -440,7 +444,7 @@ hr {
   background-color: #e9ecef;
 }
 
-.fifth hr {
+.fifth .popup-underline {
   width: 100%;
 }
 
