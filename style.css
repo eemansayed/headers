@@ -18,7 +18,7 @@ body {
   gap: 50px;
 }
 
-.first {
+header {
   height: 100px;
   background-color: #fff;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -89,8 +89,8 @@ hr {
 
 .second {
   height: 80px;
-  background-color: #fff;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  /*background-color: #fff;*/
+  /*box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;*/
 }
 
 .second .container {
@@ -111,8 +111,8 @@ hr {
 
 .third {
   height: 100px;
-  background-color: #fff;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  /*background-color: #fff;*/
+  /*box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;*/
 }
 
 .third .container {
@@ -192,7 +192,7 @@ hr {
 .fourth {
   height: 210px;
   background-color: #212529;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  /*box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;*/
 }
 
 .fourth .container {
@@ -309,8 +309,6 @@ hr {
 
 .fifth {
   height: 110px;
-  background-color: #fff;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .fifth .header-underline {
@@ -450,6 +448,25 @@ hr {
 
 .fifth .popup.visible {
   display: flex;
+}
+
+.sixth {
+  height: 300px;
+}
+
+.sixth .top {
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.sixth .title {
+  font-size: 24px;
+  line-height: 36px;
+  color: #212529;
+  font-weight: 400;
 }
 
 @media (max-width: 1200px) {
