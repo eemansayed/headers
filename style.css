@@ -457,6 +457,10 @@ hr {
     padding: 0 130px;
     justify-content: space-between;
   }
+
+  .fifth .container {
+    padding: 0 110px;
+  }
 }
 
 @media (max-width: 992px) {
@@ -473,6 +477,33 @@ hr {
   .fourth .left {
     display: flex;
     flex-direction: column;
+  }
+
+  .fifth {
+    height: 210px;
+  }
+
+  .fifth .container {
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 90%;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .fifth .left {
+    gap: 5px;
+    flex-direction: column;
+  }
+
+  .fifth .right {
+    gap: 7px;
+    flex-direction: column;
+  }
+
+  .fifth .right .searchbar {
+    width: 600px;
   }
 }
 
@@ -545,6 +576,10 @@ hr {
   .fourth .left {
     display: flex;
     flex-direction: column;
+  }
+
+  .fifth .right .searchbar {
+    width: 515px;
   }
 }
 
