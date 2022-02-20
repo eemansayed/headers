@@ -681,6 +681,19 @@ hr {
     display: flex;
     flex-direction: column;
   }
+
+  .fifth .container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
+    flex-wrap: wrap;
+    width: 100vw;
+  }
+
+  .fifth .right .searchbar {
+    width: 304px;
+  }
 }
 
 @media (max-width: 810px) {
