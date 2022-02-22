@@ -552,7 +552,7 @@ hr {
   background-color: #fff;
   border: 1px solid rgba(0, 0, 0, 0.15);
   border-radius: 0.25rem;
-  /*display: none;*/
+  display: none;
 }
 
 .sixth .popup-underline {
@@ -582,6 +582,10 @@ hr {
 
 .sixth .popup-container .popup-item:hover {
   background-color: #e9ecef;
+}
+
+.sixth .popup.visible {
+  display: flex;
 }
 
 @media (max-width: 1200px) {
