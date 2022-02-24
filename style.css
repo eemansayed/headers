@@ -685,11 +685,39 @@ hr {
   height: 70px;
 }
 
-/*.seventh .heading {*/
-/*display: flex;*/
-/*[>align-items: center;<]*/
-/*[>justify-content: center;<]*/
-/*}*/
+.eighth {
+  height: 150px;
+}
+
+.eighth .top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #212529;
+  padding: 0 100px;
+  height: 75px;
+}
+
+.eighth .logos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  /*height: 75px;*/
+  gap: 20px;
+}
+
+.eighth .logos .logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.eighth .logos img {
+  width: 24px;
+  height: 24px;
+}
 
 @media (max-width: 1200px) {
   .first .container {
